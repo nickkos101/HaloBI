@@ -1,0 +1,45 @@
+/* Autocracy Admin CSS */
+
+
+h1,h2,h3,h4,h5,h6 {
+	color: #7e1619;
+	font-weight: normal;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+h4 {font-size: 14px; font-weight: bold;}
+
+label {
+	clear: both;
+	display: block;
+}
+
+input[type=text] {
+	clear: both;
+	display: block;
+	width: 100%;
+}
+
+textarea {
+	resize:none;
+	width: 420px;
+	min-height: 120px;
+	display: block;
+	width: 100%;
+}
+
+label {
+	display: inline-block;
+	vertical-align: top;
+	min-width: 150px;
+}
+
+.col-wrap {font-size: 0;}
+.col-wrap * {box-sizing:border-box;}
+.column {display: inline-block; vertical-align: top; padding:10px;}
+.full {width: 100%;}
+.two-thirds {width: 66.666%;}
+.third {width: 33.333%;}
